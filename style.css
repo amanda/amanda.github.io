@@ -1,5 +1,6 @@
 * {
 	font-family: 'Lora', serif;
+	font-size: 14px;
 }
 
 h1 {
@@ -19,6 +20,8 @@ h2 {
 p {
 	color: black;
 	margin: 0 auto;
+	line-height: 1.5em;
+	margin-bottom: .25em;
 }
 
 a {
@@ -34,13 +37,15 @@ ul {
 	color: black;
 	margin: 10 auto;
 	padding: 5px;
+	line-height: 1.5em;
 }
 
 li {
 	color: black;
-	margin: 0 auto;
-	margin: 30 auto;
+	margin: .5em auto;
 	padding: 10px;
+	line-height: 1.5em;
+
 }
 
 .center {
