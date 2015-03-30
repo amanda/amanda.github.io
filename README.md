@@ -1,3 +1,3 @@
-# amandapickering.github.io
+# amanda.github.io
 
 personal website/resume.
