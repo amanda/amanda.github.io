@@ -30,7 +30,7 @@ a {
 }
 
 div {
-	margin: 0 auto;
+	margin-top: 10px;
 }
 
 ul {
@@ -46,6 +46,11 @@ li {
 	padding: 10px;
 	line-height: 1.5em;
 
+}
+
+.container {
+	margin-top: 50px;
+	margin-left: 50px;
 }
 
 .center {
@@ -85,8 +90,8 @@ ul {
 
 img {
 	position: fixed;
-	left: 150px;
-	top: 100px;
+	left: 400px;
+	top: 150px;
 }
 
 @media (max-width: 500px) {
