@@ -91,7 +91,7 @@ ul {
 img {
 	position: fixed;
 	left: 400px;
-	top: 150px;
+	top: 200px;
 }
 
 @media (max-width: 500px) {
