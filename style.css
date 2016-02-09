@@ -55,7 +55,7 @@ li {
 
 .center {
      margin: 0 auto;
-     width: 600px; 
+     width: 600px;
      padding: 50px 0 20px 0;
 }
 
@@ -81,6 +81,14 @@ li {
 	margin-bottom: 50px;
 }
 
+.big {
+    font-size: 14px;
+}
+
+.padded {
+    padding: .3em;
+}
+
 ul {
     list-style: none;
     margin-left: 0;
@@ -90,8 +98,8 @@ ul {
 
 img {
 	position: fixed;
-	left: 400px;
-	top: 200px;
+	left: 450px;
+	top: 250px;
 }
 
 @media (max-width: 500px) {
