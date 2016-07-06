@@ -6,6 +6,9 @@ $(document).ready(function () {
       },
       left: function () {
         return Math.floor(Math.random() * ($(window).width() - 200));
+      },
+      transform: function () {
+        return 'rotate(' + Math.floor(Math.random() * 180) + 'deg)';
       }
     });
   });
