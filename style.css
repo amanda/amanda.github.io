@@ -1,3 +1,7 @@
+body {
+    font-family: 'Lora', serif;
+}
+
 h1 {
     font-size: 32px;
     text-align: center;
@@ -17,7 +21,6 @@ p {
     margin: 0 auto;
     line-height: 1.5em;
     margin-bottom: .25em;
-	font-family: 'Lora', serif;
 	font-size: 14px;
 }
 
@@ -94,9 +97,9 @@ body {
     align-self: baseline;
     display: flex;
     justify-content: flex-end;
-    margin-right: 2rem;
+    margin-right: 4rem;
     margin-top: 40vh;
-    
+    font-size: 14px;
 }
 
 /*.indent {
@@ -131,3 +134,4 @@ ul {
       img {
         height: 100px;
       }
+}
