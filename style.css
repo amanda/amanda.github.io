@@ -21,7 +21,7 @@ p {
     margin: 0 auto;
     line-height: 1.5em;
     margin-bottom: .25em;
-	font-size: 14px;
+    font-size: 14px;
 }
 
 a {
@@ -33,21 +33,6 @@ div {
     margin-top: 10px;
 }
 
-ul {
-    color: black;
-    margin: 10 auto;
-    padding: 5px;
-    line-height: 1.5em;
-}
-
-li {
-    color: black;
-    margin: .5em auto;
-    padding: 10px;
-    line-height: 1.5em;
-
-}
-
 body {
     height: 100vh;
 }
@@ -55,34 +40,6 @@ body {
 .container {
     margin-top: 50px;
     margin-left: 100px;
-}
-
-.center {
-     margin: 0 auto;
-     width: 600px;
-     padding: 50px 0 20px 0;
-}
-
-#header {
-    border-bottom: 3px solid black;
-    overflow: hidden;
-    text-align: center;
-}
-
-#links {
-    font-size: 18px;
-    margin: 10px 0 0 0;
-}
-
-#content {
-    width: 600px;
-    margin: 0 auto;
-}
-
-#footer {
-    border-top: 3px solid black;
-    overflow: hidden;
-    margin-bottom: 50px;
 }
 
 .big {
@@ -98,40 +55,30 @@ body {
     display: flex;
     justify-content: flex-end;
     margin-right: 4rem;
-    margin-top: 40vh;
+    margin-top: 50vh;
     font-size: 14px;
-}
-
-/*.indent {
-  padding: .5em 0 0 1em;
-}*/
-
-ul {
-    list-style: none;
-    margin-left: 0;
-    padding-left: 1em;
-    text-indent: 0;
 }
 
 .moth-1 {
     position: fixed;
     left: 500px;
-    top: 255px;
-}
-
-.moth-2 {
-    position: fixed;
-    left: 200px;
-    top: 375px;
-    transform: rotate(60deg);
+    top: 325px;
 }
 
 @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
-      img {
-        height: 100px;
-      }
+    h1 {
+      font-size: 36px;
+      padding: 5px;
+    }
+    img {
+      height: 100px;
+    }
+    .moth-1 {
+        position: fixed;
+        left: 200px;
+        top: 300px;
+    }
+    .container {
+      margin: 20px 20px 0 20px;
+    }
 }
